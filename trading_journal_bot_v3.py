@@ -30,7 +30,7 @@ from telegram.ext import (
 # ─────────────────────────────────────────────
 #  CONFIG
 # ─────────────────────────────────────────────
-BOT_TOKEN        = "8927857908:AAEipdQn6Ro8RwhgrWp3dKSCSttGAiqf44g"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8927857908:AAEipdQn6Ro8RwhgrWp3dKSCSttGAiqf44g")
 GROUP_ID         = -1003948912210
 DASHBOARD_THREAD = 7
 
